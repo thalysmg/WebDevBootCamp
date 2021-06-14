@@ -16,19 +16,31 @@
                 <li>'DELETE' specific Todo</li>
                 <li>'QUIT' App</li>
             </ol>
+            <div>
+                <button id="abrePrompt">Clique aqui para selecionar uma opção</button>
+            </div>
         </div>
-        <div id="list">
+        <div id="insertTodo" hidden>
+            <label for="input-insert">Atividade</label>
+            <div>
+                <input placeholder="Digite a atividade a ser inserida" id="input-insert" style="border-radius: 5px;" type="text">
+                <button id="salvaTodo">Salvar</button>
+            </div>
+        </div>
+        <div id="list" hidden>
             <ul id="todoList">
-        
+            
             </ul>
         </div>
-        <div id="delete">
-            <ul id="deleteOptions">
-
-            </ul>
+        <div id="delete" hidden>
+            <label for="input-delete">Atividade</label>
+            <div>
+                <input placeholder="Digite a atividade a ser removida" id="input-delete" style="border-radius: 5px;" type="text">
+                <button id="deleteTodo">Excluir</button>
+            </div>
         </div>
     </div>
 
-    <script src="app.js"></script>
+    <script src="app-no-prompt.js"></script>
 </body>
 </html>
