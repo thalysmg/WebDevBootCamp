@@ -1,46 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	
 </head>
 <body>
-    <div style="display: flex; flex-direction: row;" class="container">
-        <div id="menu">
-            <ol>
-                <li>'ADD' a Todo</li>
-                <li>'TOGGLE' Todo list</li>
-                <li>'DELETE' specific Todo</li>
-                <li>'QUIT' App</li>
-            </ol>
-            <div>
-                <button id="abrePrompt">Clique aqui para selecionar uma opção</button>
-            </div>
-        </div>
-        <div id="insertTodo" hidden>
-            <label for="input-insert">Atividade</label>
-            <div>
-                <input placeholder="Digite a atividade a ser inserida" id="input-insert" style="border-radius: 5px;" type="text">
-                <button id="salvaTodo">Salvar</button>
-            </div>
-        </div>
-        <div id="list" hidden>
-            <ul id="todoList">
-            
-            </ul>
-        </div>
-        <div id="delete" hidden>
-            <label for="input-delete">Atividade</label>
-            <div>
-                <input placeholder="Digite a atividade a ser removida" id="input-delete" style="border-radius: 5px;" type="text">
-                <button id="deleteTodo">Excluir</button>
-            </div>
-        </div>
-    </div>
-
-    <script src="app-no-prompt.js"></script>
+	<div style="display: flex; flex-direction: row;" class="container">
+		<div id="menu">
+			<ol>
+				<li>'ADD' a Todo</li>
+				<li>'TOGGLE' Todo list</li>
+				<li>'DELETE' specific Todo</li>
+				<li>'QUIT' App</li>
+			</ol>
+			<div>
+				<button id="abrePrompt">Clique aqui para selecionar uma opção</button>
+			</div>
+		</div>
+		<div id="insertTodo" hidden>
+			<label for="input-insert">Atividade</label>
+			<div>
+				<input placeholder="Digite a atividade a ser inserida" id="input-insert" style="border-radius: 5px;" type="text">
+				<button id="salvaTodo">Salvar</button>
+			</div>
+		</div>
+		<div id="list" hidden>
+			<ul id="todoList">
+				
+			</ul>
+		</div>
+		<div id="delete" hidden>
+			<label for="input-delete">Atividade</label>
+			<div>
+				<input placeholder="Digite a atividade a ser removida" id="input-delete" style="border-radius: 5px;" type="text">
+				<button id="deleteTodo">Excluir</button>
+			</div>
+		</div>
+	</div>
+	
+	<script src="app-no-prompt.js"></script>
 </body>
 </html>
